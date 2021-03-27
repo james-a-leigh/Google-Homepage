@@ -1,8 +1,39 @@
-body {
+img {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+#logo {
+    grid-area: logo;
+}
+#search-box {
+    grid-area: search;
+    justify-self: center;
+    align-self: center;
+}
+.container {
     display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto 1fr 10px auto;
+    grid-template-areas: 
+        "left-header . right-header"
+        "logo logo logo"
+        "search search search"
+        "footer footer footer";
     justify-items: center;
 }
-img {
-    width: 50%;
-    height: auto;
+.left-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    grid-area: left-header;
+  }
+.right-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    grid-area: right-header;
 }
+li {
+      display: inline;
+  }
