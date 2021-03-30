@@ -35,15 +35,16 @@ input[type=text] {
     justify-items: center;
 }
 .left-header {
+    top: 100px;
     list-style-type: none;
-    margin: 0;
     padding: 0;
     grid-area: left-header;
   }
 .right-header {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    justify-content: center;
+    align-content: center;
+    padding-right: 50px;
     grid-area: right-header;
 }
 .footer-left {
@@ -75,6 +76,9 @@ li {
     display: inline;
 }
 #JL-Profile-Pic {
-    width: 20%;
+    width: 3.5%;
+    position: absolute;
+    right: 5px;;
+    padding: 0%;
+    margin: 0%;
 }
-/* Need to float or change the positioning of the profile pic?*/
