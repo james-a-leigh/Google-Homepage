@@ -74,3 +74,7 @@ input[type=text] {
 li {
     display: inline;
 }
+#JL-Profile-Pic {
+    width: 20%;
+}
+/* Need to float or change the positioning of the profile pic?*/
