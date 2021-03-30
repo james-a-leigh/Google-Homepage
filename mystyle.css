@@ -46,6 +46,41 @@ input[type=text] {
     padding: 0;
     grid-area: right-header;
 }
+.footer-left {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: left;
+    grid-area: left-footer;
+  }
+.footer-right {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: right;
+    grid-area: right-footer;
+  }
+.footer-center {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    grid-area: center-footer;
+  }
+li {
+    display: inline;
+}
+
+
+
+
+/*
 .left-footer {
     list-style-type: none;
     margin: 0;
@@ -64,8 +99,5 @@ input[type=text] {
     padding: 0;
     grid-area: right-footer;
 }
-li {
-      display: inline;
-  }
 
-/* Need to extend the footer out to the bottom of the page - how do I elongate it/the whole page?*/
+*/
