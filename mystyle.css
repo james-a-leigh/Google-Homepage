@@ -84,5 +84,5 @@ li {
 }
 .search-buttons {
     grid-area: search-buttons;
-
+    padding: 1em;
 }
